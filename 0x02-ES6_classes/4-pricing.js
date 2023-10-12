@@ -4,7 +4,7 @@ export default class Pricing {
     constructor(amount, currency) {
         if (typeof amount !== 'number') {
             throw new TypeError('Amount must be a number');
-        } elsee if (!(currency instancof Currency)) {
+        } else if (!(currency instanceof Currency)) {
             throw new TypeError('Currency must be an instance of class Currency');
         }
 
